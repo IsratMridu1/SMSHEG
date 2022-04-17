@@ -69,6 +69,10 @@ body{
      
   }
 
+  .search-icon:hover{
+      cursor: pointer;
+  }
+
   .uni-country-bg{
       background-color: #F4F4F4;
      
@@ -187,7 +191,7 @@ body{
 
 
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 576px) {
     .select-style select {
         width: 100%;
         margin-bottom: 20px;
@@ -213,9 +217,7 @@ body{
         margin-bottom: 20px;
     }
 
-   .subject-style-position{
-       text-align: center;
-   }
+ 
 
    .subject-details-1{
     display: flex;
@@ -223,13 +225,14 @@ body{
     justify-content: space-evenly;
 }
 
-.subject-text-style{
+.subject-style{
     text-align: center;
+   
 }
     
   }
 
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 768px) {
 
     .select-style select {
         width: 100%;
@@ -252,10 +255,7 @@ body{
         margin-bottom: 20px;
     }
 
-    .subject-style-position{
-        text-align: center;
-    }
-
+ 
     .subject-details-1{
         display: flex;
         flex-wrap: wrap;
@@ -268,10 +268,30 @@ body{
         justify-content: space-evenly;
     }
 
-    .subject-text-style{
+    .subject-style{
         text-align: center;
     }
 
    
 
   }
+
+  @media only screen and (max-width: 1199px) {
+
+ .select-style select {
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+
+    .apply-btn-style-2{
+        margin-bottom: 10px;
+    }
+    .apply-btn-style{
+        margin-bottom: 10px;
+    }
+
+    
+    
+  
+
+  } 
