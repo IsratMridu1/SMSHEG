@@ -176,3 +176,169 @@ body{
     position: relative;
     bottom: 200px;
 }
+
+/* accordion style */
+
+.accordion .accordion-item .accordion-header .accordion-button{
+      color: #404040;
+    font-size: 28px;
+    font-weight: 400; 
+    background-color:  #F3F2F2;
+  
+
+
+}
+
+.accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
+
+    background: url("/Assets/Images/Group\ 260plus.png");
+    background-size: cover;
+    
+
+  
+  }
+  
+  .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+  
+   
+    background: url("/Assets/Images/Rectangle\ 1844.jpg");
+    width: 20px;
+    height: 5px;
+    
+
+    
+  }
+
+  /* accordion style end */
+
+  .about-p-style{
+    color: #404040;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.inner-about-style{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+    background-color: #FFFFFF;
+    border: 1px solid #F3F2F2;
+    
+   
+  }
+ 
+  .plus-icon-style{
+    color: #E5E5E5;
+    font-size: 40px;
+    font-weight: 700;
+
+  }
+
+  
+.bg-div{
+    background-color: #052D72;
+}
+
+.footer{
+    margin-bottom: 20px;
+}
+
+.footer p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+
+
+}
+
+.footer span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #B8B8B8;
+    
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.social-media-icons{
+    position: relative;
+    margin-left: -10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.copyright-bg{
+    background-color: #0D1766;
+}
+
+.copyright-p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.copyright-a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.copy-div-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.copy-div-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.copy-div-2 a:hover{
+    color: #FFFFFF;
+}
+  
+
+@media only screen and (max-width: 576px) {
+
+
+    
+    .bg-div{
+        text-align: center;
+    }
+
+    
+.copy-div-1{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-p{
+    font-size: 13px;
+    
+}
+.copyright-a{
+    font-size: 13px;
+   
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .copyright-p{
+        font-size: 16px;
+        
+    }
+    .copyright-a{
+        font-size: 16px;
+       
+    }
+   
+
+}
