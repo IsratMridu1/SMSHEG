@@ -137,10 +137,14 @@ body{
 .course-cost-style{
     font-size: 18px;
     color: #757575;
+    font-weight: 400;
 }
+
 .course-cost-style-top{
     font-size: 18px;
-    color: #404040
+    color: #404040;
+    font-weight: 500;
+    
 }
 
 .subject-details-1{

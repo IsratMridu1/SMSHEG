@@ -193,9 +193,8 @@ body{
 .accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
 
  
-    background: url("/Assets/Images/Rectangle\ 1844.jpg");
-    width: 20px;
-    height: 5px;
+    background: url("/Assets/Images/Group\ 260plus.png");
+    background-size: cover;
 
   
   }
@@ -203,13 +202,12 @@ body{
   .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
   
    
+  
+    background: url("/Assets/Images/Rectangle\ 1844.jpg");
+    width: 20px;
+    height: 5px;
 
-
-    background: url("/Assets/Images/Group\ 260plus.png");
-    background-size: cover;
-    
-
-    
+  
   }
 
   .accordion .accordion-item .accordion-header .accordion-button:focus {
@@ -221,7 +219,6 @@ body{
 .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed){
     box-shadow: none;
 }
-
 
   /* accordion style end */
 
@@ -316,17 +313,75 @@ body{
 .copy-div-2 a:hover{
     color: #FFFFFF;
 }
+
+.subject-style{
+    font-size: 24px;
+    color: #404040;
+}
+
+.subject-details-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subject-details-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.apply-btn-style{
+    border: 0;
+    border-radius: 5px;
+    background-color: #04A1E5;
+    color: white;
+    width: 110px;
+    height: 48px;
+}
+.apply-btn-style-2{
+    border: 0;
+    border-radius: 5px;
+    background-color: #B8B9BA;;
+    color: white;
+    width: 110px;
+    height: 48px;
+}
+.details-btn-style{
+    border: 1px solid #04A1E5;
+    border-radius: 5px;
+    background-color: white;
+ 
+    color: #04A1E5;
+    width: 110px;
+    height: 48px;
+}
+.details-btn-style-2{
+    border: 1px solid #B8B9BA;
+    border-radius: 5px;
+    background-color: white;
+ 
+    color: #404040;
+    width: 110px;
+    height: 48px;
+}
+
+.course-cost-style-top{
+    font-size: 18px;
+    color: #404040
+}
   
-.arrow-position{
-    position: relative;
-    bottom: 55px
+.course-cost-style{
+    font-size: 18px;
+    color: #757575;
 }
 
-
-.main-position{
-    position: relative;
-    left: 15px;
+.computing-span{
+    color: #404040;
+    font-weight: 400;
+    font-size: 28px;
+   
 }
+
 
 @media only screen and (max-width: 576px) {
 
