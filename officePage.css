@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-style{
+    border-radius: 50px;
+    border: 1px solid #2154AC;
+    color: #2154AC;
+}
+
+.icon-style{
+    color: #2154AC;
+}
+
+
+
+.homeMenuStye{
+    color: #2154AC;
+}
+
+.navbar-font-size{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.bg-div{
+    background-color: #052D72;
+}
+
+.nav-shadow{
+    box-shadow: 1px 1px 10px #E5E5E5;;
+}
+
+.row-style{
+    background-color: #EDF1FC;
+}
+
+.p-style{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+.bd{
+    display: flex;
+  
+   
+  
+}
+
+.bd p{
+    margin: 0;
+}
+
+.bd-office{
+    background-color: #276ABC;
+
+}
+
+.title-style{
+    font-size: 24px;
+}
+
+.span-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.button-style{
+   
+    background-color: #F1FCFD;
+    border: 0;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .secret-img{
+
+        display: none;
+
+
+    }
+
+    .title-style{
+        display: none;
+    }
+
+
+}
