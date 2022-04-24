@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-style{
+    border-radius: 50px;
+    border: 1px solid #2154AC;
+    color: #2154AC;
+}
+
+.icon-style{
+    color: #2154AC;
+}
+
+
+
+.homeMenuStye{
+    color: #2154AC;
+}
+
+.navbar-font-size{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sign-in-style{
+    background-color: #F5F7FF;
+}
+
+
+
+::placeholder {
+    color: #5A5A5A;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #5A5A5A;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #5A5A5A;
+  }
+
+
+ 
+.bg-div{
+    background-color: #052D72;
+}
+
+.footer{
+    margin-bottom: 20px;
+}
+
+.footer p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+
+
+}
+
+.footer span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #B8B8B8;
+    
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.social-media-icons{
+    position: relative;
+    margin-left: -10px;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+
+.copyright-bg{
+    background-color: #0D1766;
+}
+
+.copyright-p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.copyright-a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.copy-div-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.copy-div-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+
+.copy-div-2 a:hover{
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 576px) {
+
+ 
+
+    .copyright-p{
+        text-align: center;
+    }
+
+    .social-media-icons{
+        justify-content: center;
+    }
+  
+    
+    .bg-div{
+        text-align: center;
+    }
+
+    
+.copy-div-1{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-p{
+    font-size: 13px;
+    
+}
+.copyright-a{
+    font-size: 13px;
+   
+}
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+    .sign-in-w{
+        width: 80%;
+        
+    
+        margin: 0 auto;
+    }
+
+    .copyright-p{
+        font-size: 16px;
+        
+    }
+    .copyright-a{
+        font-size: 16px;
+       
+    }
+   
+
+}
+
