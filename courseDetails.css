@@ -80,21 +80,21 @@ body a {
 }
 
 
-
+/* 
 .about-p-style{
     color: #2154AC;
     font-size: 28px;
     font-weight: 700;
 }
 
-.inner-about-style{
+ .inner-about-style{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;  
   background-color: #F3F2F2;
   
  
-}
+} */
 
 .details-para-style{
     color: #757575;
@@ -202,8 +202,9 @@ body a {
 
 .bg-images-1{
     background: url('./Assets/Images/Rectangle\ 1866uni1.svg');
+    height: 250px;
    
-   height: 250px;
+ 
    display: flex;
    align-items: flex-end;
    
@@ -213,8 +214,9 @@ body a {
 }
 .bg-images-2{
     background: url('./Assets/Images/Rectangle\ 1867.svg');
+    height: 250px;
    
-   height: 250px;
+
    display: flex;
    align-items: flex-end;
    
@@ -224,8 +226,9 @@ body a {
 }
 .bg-images-3{
     background: url('./Assets/Images/Rectangle\ 186868.svg');
+    height: 250px;
    
-   height: 250px;
+
    display: flex;
    align-items: flex-end;
    
@@ -235,8 +238,9 @@ body a {
 }
 .bg-images-4{
     background: url('./Assets/Images/Rectangle\ 1869.svg');
+    height: 250px;
    
-   height: 250px;
+
    display: flex;
    align-items: flex-end;
    
@@ -246,8 +250,9 @@ body a {
 }
 .bg-images-5{
     background: url('./Assets/Images/Rectangle\ 1870.svg');
+    height: 250px;
    
-   height: 250px;
+
    display: flex;
    align-items: flex-end;
    
@@ -257,8 +262,9 @@ body a {
 }
 .bg-images-6{
     background: url('./Assets/Images/Rectangle\ 18711871.svg');
+    height: 250px;
    
-   height: 250px;
+
    display: flex;
    
    align-items: flex-end;
@@ -353,6 +359,51 @@ body a {
    color: #FFFFFF;
 }
 
+
+/* accordion style */
+
+.accordion .accordion-item .accordion-header .accordion-button{
+    color: #2154AC;
+  font-size: 28px;
+  font-weight: 700; 
+  background-color:  #F3F2F2;
+
+
+
+}
+
+.accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
+
+
+  background: url("/Assets/Images/Group\ 260plus.png");
+  background-size: cover;
+
+
+}
+
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+
+ 
+
+  background: url("/Assets/Images/Rectangle\ 1844.jpg");
+  width: 20px;
+  height: 5px;
+
+
+}
+
+.accordion .accordion-item .accordion-header .accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0,0,0,.125);
+}
+
+
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed){
+  box-shadow: none;
+}
+
+/* accordion style end */
+
 @media only screen and (max-width: 576px) {
 
     .bg-div{
@@ -437,42 +488,42 @@ body a {
     .bg-images-1{
        
        
-       height: 220px;
+       height: 210px;
    
        
     }
     .bg-images-2{
         
        
-       height: 220px;
+       height: 210px;
  
        
     }
     .bg-images-3{
       
        
-       height: 220px;
+       height: 210px;
      
        
     }
     .bg-images-4{
         
        
-       height: 220px;
+       height: 210px;
      
        
     }
     .bg-images-5{
        
        
-       height: 220px;
+       height: 210px;
     
        
     }
     .bg-images-6{
         
        
-       height: 220px;
+       height: 210px;
      
        
     }

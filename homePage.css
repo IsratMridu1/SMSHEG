@@ -29,101 +29,7 @@ body{
 }
 
 
-::placeholder {
-    color: #5A5A5A;
-    opacity: .3; /* Firefox */
-   
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #5A5A5A;
-   opacity: .3;
-   
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #5A5A5A;
-   opacity: .3;
-   
-  }
 
-  .select-style{
-    color: #5A5A5A;
-    opacity: .3;
-  }
-
-.desc-4{
-    font-size: 24px;
-    font-weight: 700;
-    color: #276ABC;
-}
-
-.qa-style{
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.qa-2{
-    font-size: 14px;
-    color: #757575;
-    font-weight: 400;
-}
-
-  .permission{
-      font-size: 12px;
-      font-weight: 400;
-      color: #757575;
-      margin: 0;
-  }
-
-  #input::placeholder{
-      text-align: center;
-      color: #5A5A5A;
-      opacity: .3;
-  }
-
-  .label-1{
-      font-size: 9px;
-      font-weight: 400;
-      color: #757575;
-  }
-
-
-.title-style{
-    font-size: 24px;
-    font-weight: 700;
-    color: #276ABC;
-}
-
-.form-style{
-    margin:  0 auto;
-  
-    width: 100%;
-    background-color: #F2F3F7;
-}
-
-.form-style-1{
-    display: flex;
-    justify-content: center;
-}
-
-.span-style-1{
-    color: #276ABC;
-    font-size: 24px;
-    font-weight: 700;
-
-}
-.span-style-2{
-    color: #757575;
-    font-size: 14px;
-    font-weight: 400;
-
-}
-
-.bg-color{
-    background-color: #F2F3F7;
-}
- 
 .bg-div{
     background-color: #052D72;
 }
@@ -164,7 +70,6 @@ body{
     font-size: 18px;
     font-weight: 400;
     color: #000000;
-    line-height: 27px;
 }
 .desc-2{
     font-size: 24px;
@@ -179,7 +84,7 @@ body{
 }
 
 .banner-img{
-    background: url('/Assets/Images/image2.png');
+    background: url('/Assets/Images/image.png');
     opacity: .9;
     width: 100%;
 background-size: cover;
@@ -232,33 +137,24 @@ background-size: cover;
     color: #FFFFFF;
 }
 
-#span-1{
-    color: #EA3D24;
-    font-size: 12px;
-    font-weight: 400;
 
+.banner-bg{
+    
+    background-image: url('/Assets/Images/Rectangle\ 27banner.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 570px;
 }
 
-#span-2{
-    color: #EA3D24;
-    font-size: 12px;
-    font-weight: 400;
 
-}
 
-.contact-btn-style{
-    background-color: #2154AC;
-    color: white;
-    border-radius: 5px;
-}
+
 
 @media only screen and (max-width: 576px) {
 
  
-    .form-style{
-      
-        width: 100%;
-    }
+   
 
 
     .copyright-p{
@@ -296,10 +192,6 @@ background-size: cover;
 @media only screen and (max-width: 768px) {
 
 
-    .form-style{
-        width: 100%;
-     
-    }
 
     .sign-in-w{
         width: 80%;
@@ -321,16 +213,3 @@ background-size: cover;
 }
 
 
-@media only screen and (max-width: 1399px) {
-
-
-
-.form-style{
-  
-        width: 100%;
-    }
-
-
-
-
-}
