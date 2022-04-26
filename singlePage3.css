@@ -29,7 +29,6 @@ body{
 }
 
 
-
 ::placeholder {
     color: #5A5A5A;
     opacity: .3; /* Firefox */
@@ -81,9 +80,8 @@ body{
 
 .form-style{
     margin:  0 auto;
-    position: relative;
-    bottom: 150px;
-    width: 40%;
+  
+    width: 100%;
     background-color: #F2F3F7;
 }
 
@@ -92,18 +90,6 @@ body{
     justify-content: center;
 }
 
-.span-style-1{
-    color: #276ABC;
-    font-size: 24px;
-    font-weight: 700;
-
-}
-.span-style-2{
-    color: #757575;
-    font-size: 14px;
-    font-weight: 400;
-
-}
 
 .bg-color{
     background-color: #F2F3F7;
@@ -143,6 +129,29 @@ body{
     flex-wrap: wrap;
   
 
+}
+
+
+
+.banner-img{
+    background: url('/Assets/Images/image3.png');
+    opacity: .9;
+    width: 100%;
+background-size: cover;
+    background-repeat: no-repeat;
+    height: 544px;
+
+    display: flex;
+  
+
+   align-items: flex-end;
+    
+}
+
+.title-1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #FFFFFF;
 }
 
 .copyright-bg{
@@ -198,12 +207,78 @@ body{
     border-radius: 5px;
 }
 
+.style-1{
+
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.style-2{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.desc-4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #276ABC;
+}
+
+
+/* accordion style */
+
+.accordion .accordion-item .accordion-header .accordion-button{
+    color: #2154AC;
+  font-size: 20px;
+  font-weight: 600; 
+  background-color:  #F3F2F2;
+
+
+}
+
+.accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
+
+
+  background: url("/Assets/Images/Rectangle\ 1844.jpg");
+  width: 20px;
+  height: 5px;
+
+
+}
+
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+
+ 
+
+
+  background: url("/Assets/Images/Group\ 260plus.png");
+  background-size: cover;
+  
+
+  
+}
+
+.accordion .accordion-item .accordion-header .accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0,0,0,.125);
+}
+
+
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed){
+  box-shadow: none;
+}
+
+
+/* accordion style end */
+
 @media only screen and (max-width: 576px) {
 
  
     .form-style{
-        position: relative;
-        bottom: 70px;
+      
         width: 100%;
     }
 
@@ -245,8 +320,7 @@ body{
 
     .form-style{
         width: 100%;
-        position: relative;
-        bottom: 70px;
+     
     }
 
     .sign-in-w{
@@ -274,9 +348,8 @@ body{
 
 
 .form-style{
-    position: relative;
-    bottom: 70px;
-        width: 80%;
+  
+        width: 100%;
     }
 
 

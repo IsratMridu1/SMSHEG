@@ -1,9 +1,9 @@
 const checkPrivacy = (event) => {
    if(event.checked  == true){
-       document.getElementById('span-1').innerHTML='Please agree to our terms';
+       document.getElementById('span-1').innerHTML='';
    }
    else{
-    document.getElementById('span-1').innerHTML='';
+    document.getElementById('span-1').innerHTML='Please agree to our terms';
    }
 }
 
