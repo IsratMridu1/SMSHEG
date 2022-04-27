@@ -102,7 +102,7 @@
 
 <!-- form section start -->
 <section class="">
-  <div class="form-style p-5">
+  <div class="forms-style p-5">
    <div class="mb-4">
     <h1 class="span-style-1 mb-3">Interested in studying abroad with SMS?</h1>
     <span class="span-style-2">Talk to one of our consultants today.
@@ -111,11 +111,11 @@
    </div>
    <form action="" >
 
-    <input type="text" class="border-top-0 border-start-0 border-end-0 ms-2 me-2 bg-color pb-2 mb-2" placeholder="First Name*">
-    <input type="text" class="border-top-0 border-start-0 border-end-0 ms-2 bg-color pb-2 mb-lg-5 mb-md-3 mb-2" placeholder="Last Name*">
-    <input type="email" class="border-top-0 border-start-0 pb-2 w-75 border-end-0 ms-2 bg-color mb-lg-5 mb-md-3 mb-2" placeholder="Email Address*">
+    <input type="text" style="border-bottom: 1px solid #C4C4C4;" class="border-top-0 border-start-0 border-end-0 ms-2 me-2 bg-color pb-2 mb-2" placeholder="First Name*">
+    <input type="text" style="border-bottom: 1px solid #C4C4C4;" class="border-top-0 border-start-0 border-end-0 ms-2 bg-color pb-2 mb-lg-5 mb-md-3 mb-2" placeholder="Last Name*">
+    <input type="email" style="border-bottom: 1px solid #C4C4C4;" class="border-top-0 border-start-0 pb-2 w-75 border-end-0 ms-2 bg-color mb-lg-5 mb-md-3 mb-2" placeholder="Email Address*">
    
-    <input type="text" id="input" class="border-top-0 pb-2 border-start-0 w-75 border-end-0 ms-2 bg-color mb-lg-5 mb-md-3 mb-2" placeholder="Mobile Number*" value="+880"  >
+    <input type="text" id="input" style="border-bottom: 1px solid #C4C4C4;" class="border-top-0 pb-2 border-start-0 w-75 border-end-0 ms-2 bg-color mb-lg-5 mb-md-3 mb-2" placeholder="Mobile Number*" value="+880"  >
     <br>
 
     <label class="label-1 ms-2 pb-2">Where do you want to study*</label>
@@ -321,7 +321,25 @@
 
 
 
-<script src="js/apply.js"></script>
+<script>
+    const checkPrivacy = (event) => {
+    if(event.checked  == true){
+        document.getElementById('span-1').innerHTML='';
+    }
+    else{
+     document.getElementById('span-1').innerHTML='Please agree to our terms';
+    }
+ }
+ 
+ const checkPrivacy2 = (event) => {
+    if(event.checked  == true){
+        document.getElementById('span-2').innerHTML='';
+    }
+    else{
+     document.getElementById('span-2').innerHTML='Can we call you to get started?';
+    }
+ }
+</script>
 
     
 

@@ -157,7 +157,7 @@ body{
 
 
 
-.banner-img{
+.banner-img3{
     background: url('/Assets/Images/image3.png');
     opacity: .9;
     width: 100%;
@@ -464,7 +464,7 @@ body{
     color: #276ABC;
 }
 
-.form-style{
+.forms-style{
     margin:  0 auto;
     position: relative;
     bottom: 150px;
@@ -472,7 +472,7 @@ body{
     background-color: #F2F3F7;
 }
 
-.form-style-1{
+.forms-style-1{
     display: flex;
     justify-content: center;
 }
@@ -586,7 +586,7 @@ body{
 @media only screen and (max-width: 576px) {
 
  
-    .form-style{
+    .forms-style{
         position: relative;
         bottom: 70px;
         width: 100%;
@@ -628,7 +628,7 @@ body{
 @media only screen and (max-width: 768px) {
 
 
-    .form-style{
+    .forms-style{
         width: 100%;
         position: relative;
         bottom: 70px;
@@ -658,7 +658,7 @@ body{
 
 
 
-.form-style{
+.forms-style{
     position: relative;
     bottom: 70px;
         width: 80%;
@@ -3134,7 +3134,7 @@ body a {
         color: #276ABC;
     }
     
-    .banner-img{
+    .banner-img1{
         background: url('/Assets/Images/image.png');
         opacity: .9;
         width: 100%;
@@ -3473,7 +3473,7 @@ body a {
         color: #276ABC;
     }
     
-    .banner-img{
+    .banner-img2{
         background: url('/Assets/Images/image2.png');
         opacity: .9;
         width: 100%;
@@ -4451,3 +4451,50 @@ body{
 
   }
 
+
+  /* who we are  /about */
+
+  .banner-img5{
+    background: url('/Assets/Images/Rectangle\ 285.svg');
+    opacity: .9;
+    width: 100%;
+background-size: cover;
+    background-repeat: no-repeat;
+    height: 544px;
+
+    display: flex;
+  
+
+   align-items: flex-end;
+    
+}
+
+.who-we-are-style-1{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+
+}
+
+.who-we-are-style-2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #404040;
+
+}
+
+.key-service-style-1{
+
+    font-size: 24px;
+    font-weight: 700;
+    color: #757575;
+
+}
+
+.key-service-style-2{
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+
+}
