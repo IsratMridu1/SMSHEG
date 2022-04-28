@@ -1124,6 +1124,65 @@ body a {
     background-repeat: no-repeat;
    
 }
+
+.bg-imagess-1{
+    background: url('./Assets/Images/Rectangle\ 1762uk.svg');
+ height: 320px;
+ opacity: .9;
+   
+ 
+   display: flex;
+   align-items: flex-end;
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+.bg-imagess-4{
+    background: url('./Assets/Images/Rectangle\ 1763usa.svg');
+    height: 320px;
+    opacity: .9;
+   
+ 
+   display: flex;
+   align-items: flex-end;
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+.bg-imagess-2{
+    background: url('./Assets/Images/Rectangle\ 1761can.png');
+    height: 320px;
+    opacity: .9;
+ 
+   display: flex;
+   align-items: flex-end;
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+.bg-imagess-3{
+    background: url('./Assets/Images/Rectangle\ 1760aus.svg');
+    height: 320px;
+    opacity: .9;
+   
+ 
+   display: flex;
+   align-items: flex-end;
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+
 .bg-images-2{
     background: url('./Assets/Images/Rectangle\ 1867.svg');
     height: 250px;
@@ -4588,6 +4647,8 @@ background-size: cover;
 
 /*  */
 
+
+
 body{
     margin: 0;
     padding: 0;
@@ -4779,6 +4840,21 @@ body{
     display: flex;
     align-items: flex-end;
     margin-bottom: 101px;
+    
+}
+
+
+
+.banner-bgs{
+    background: url('/assets/Images/Rectangle\ 27.svg');
+  
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+
+
     
 }
 
@@ -5743,3 +5819,7 @@ body{
   }
   }
 /*  */
+
+
+/* carousel */
+

@@ -7,6 +7,14 @@
     <title>Home page</title>
     <link rel="stylesheet" href="style.css">
 
+    <!--  -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--  -->
+
       <!-- Bootstrap 5 CSS CDN link  -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -19,91 +27,151 @@
   
   <!--  -->
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+  <style>
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #A1A1A1;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #A1A1A1;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #A1A1A1;
+  }
+
+  input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+  }
+
+
+
+
+  </style>
+
+
+
+
 </head>
 <body>
 
-            
+   
+         
      <!-- Header Section -->
-   <section>
-    <div class="container">
-
-        <div class="container  py-3">
-
-            <nav class=" container navbar navbar-expand-lg navbar-light bg-white">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="/Assets/Images/Grouplobg.svg" alt="SMSHEG_Logo_Image">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class=" container collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-font-size ">
-                            <li class="nav-item">
-                                <a class="nav-link active homeMenuStye" aria-current="page" href="#">why SMS</a>
-
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active homeMenuStye" aria-current="page" href="#">Study in the UK</a>
-
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Study Destinations
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active homeMenuStye" aria-current="page" href="#">Institutions/Partners</a>
-
-                            </li>
-                            
-                        
-                            <li class="nav-item">
-                                <button class=" btn-style bg-white ms-lg-3 ms-sm-0 ms-md-0 px-3 py-2">
-                                    <i class="fa-regular fa-user me-3 icon-style "></i> Sign in</button>
-
-                            </li>
-
-
-                       
+     <section class="mb-5">
+      <div class="container">
+  
+          <div class="container  py-3">
+  
+              <nav class=" container navbar navbar-expand-lg navbar-light bg-white">
+                  <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                          <img src="/Assets/Images/Grouplobg.svg" alt="SMSHEG_Logo_Image">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                          aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class=" container collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-font-size ">
+                              <li class="nav-item">
+                                  <a class="nav-link active homeMenuStye" aria-current="page" href="#">why SMS</a>
+  
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link active homeMenuStye" aria-current="page" href="#">Study in the UK</a>
+  
+                              </li>
+  
+                              <li class="nav-item dropdown has-megamenu">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Study Destinations  </a>
+                                <div class="dropdown-menu megamenu" role="menu">
+                                  This is content of megamenu. <br>
+                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat.
+                                </div> <!-- dropdown-mega-menu.// -->
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link active homeMenuStye" aria-current="page" href="#">Institutions/Partners</a>
+  
+                              </li>
+                              
                           
-                        </ul>
-
-
-
-                    </div>
-            </nav>
-
-        </div>
-    </div>
-    </div>
-
-
-</section>
-<!-- Header Section End -->
+                              <li class="nav-item">
+                                <button class=" btn-style bg-white ms-lg-3 ms-sm-0 ms-md-0 px-3 py-2">
+                                  <i class=" icon-style "></i> Apply</button>
+  
+                              </li>
+  
+  
+                         
+                            
+                          </ul>
+  
+  
+  
+                      </div>
+              </nav>
+  
+          </div>
+      </div>
+      </div>
+  
+  
+  </section>
+  <!-- Header Section End -->
 
 
 <!-- banner section start -->
-<section class="banner-bg">
-    <div class="row mx-auto">
+<section class="banner-bgs">
+    <div class="row mx-auto flexbox container">
         <div class="col-lg-6 col-md-12 col-12">
+          <h1 class="pt-5" style="font-size: 45px; font-weight: 700; color: #FFFFFF;">Want to Study 
+            <br>
+            In the best UK university?</h1>
+          
+
+            <div class=" p-4 my-5 bg-white rounded-3">
+              <input type="text" class="pb-2 ps-2" placeholder="Search">
+              <div class="mt-3">
+
+                <button class="text-white px-3 py-0 border-0 me-1" style="background-color: #2154AC; border-radius: 20px;">
+                  Courses
+                </button>
+
+                <button class="bg-white px-3 py-0 me-1" style=" border-radius: 20px; border: 1px solid #C4C4C4; color: #A1A1A1;">
+                  Scholarship
+                </button>
+
+                <button class="bg-white px-3 py-0 me-1" style=" border-radius: 20px; border: 1px solid #C4C4C4; color: #A1A1A1;">
+                  Universities
+                </button>
+
+                <button class="bg-white px-3 py-0 me-1 " style=" border-radius: 20px; border: 1px solid #C4C4C4; color: #A1A1A1;">
+                  Website
+                </button>
+              </div>
+
+            </div>
             
         </div>
 
         <div class="col-lg-6 col-md-12 col-12">
-            <img src="/Assets/Images/Ellipse 25circlebackgroundImage.svg" class="w-75" alt="">
+            <img src="/Assets/Images/Ellipse 25circlebackgroundImage.svg" style="position: relative; bottom: 23px;" class="w-75 pt-5" alt="">
 
         </div>
 
@@ -112,6 +180,934 @@
 </section>
 
 <!-- banner section end -->
+
+
+<section class="mx-auto " style="background-image: url('./Assets/Images/Component\ 1.svg'); background-repeat: no-repeat; background-size: cover; height: 100%; width: 100%; ">
+<div class="container">
+
+
+  <div class="row container home-stylesss g-4">
+
+          <div class="col-lg-4 col-md-6 col-12 bg-white p-5 rounded-3">
+         <div class="d-flex mb-2">
+          <div>
+            <img src="./Assets/Images/ics-1.PNG" class="img-fluid me-1" alt="">
+
+          </div>
+      <div class="ms-1">
+        <span style="font-size: 24px; font-weight: 400; color: #141518;">5000</span>
+    
+        <br>
+        <span style="font-size: 16px; font-weight: 400; color: #141518;"> Student Served</span>
+      </div>
+         </div>
+
+         <div class="d-flex mb-2">
+          <div>
+            <img src="./Assets/Images/ics2.PNG" class="img-fluid me-1" alt="">
+
+          </div>
+      <div class="ms-1">
+        <span style="font-size: 24px; font-weight: 400; color: #141518;">20+
+        </span>
+    
+        <br>
+        <span style="font-size: 16px; font-weight: 400; color: #141518;">   Recruiting Universities</span>
+      </div>
+         </div>
+
+         <div class="d-flex mb-2">
+          <div>
+            <img src="./Assets/Images/ics3.PNG" class="img-fluid me-1" alt="">
+
+          </div>
+      <div class="ms-1">
+        <span style="font-size: 24px; font-weight: 400; color: #141518;">1000+
+         </span>
+    
+        <br>
+        <span style="font-size: 16px; font-weight: 400; color: #141518;"> Courses Offered</span>
+      </div>
+         </div>
+
+         <div class="d-flex mb-2">
+          <div>
+            <img src="./Assets/Images/ics4.PNG" class="img-fluid me-1" alt="">
+
+          </div>
+      <div class="ms-1">
+        <span style="font-size: 24px; font-weight: 400; color: #141518;">97% </span>
+    
+        <br>
+        <span style="font-size: 16px; font-weight: 400; color: #141518;"> Student Satisfaction</span>
+      </div>
+         </div>
+
+
+          </div>    
+
+          <div class="col-lg-8 col-md-6 col-12">
+
+            <div style="background-image: url('./Assets/Images/Rectangle\ 1817blueeeeeeee\ \(1\).svg'); width: 100%; background-size: cover ; background-repeat: no-repeat; height: 100%;">
+              <div class="p-5">
+                <h1 style="font-weight:600; font-size: 36px; color: #FFFFFF;" >Welcome to SMS Higher 
+                   <br>
+                  Education Group</h1>
+
+                  <br>
+
+                  <h1 style="font-weight:400; font-size: 14px; color: #FFFFFF;">SMS Higher Education Group is one of the most reputed educational Consultancy Companies in London, United Kingdom. We represent major UK universities and offer admission services for both Local and International Students.We represent majervices for both Local and International Students.We reprjor UK universities aadmission servicesnal Students.</h1>
+
+
+                  <br>
+                  <br>
+
+                  <button style="background-color: #FF9C2D;" class="text-white px-4 py-2 border-0 rounded-3" >How de we help <img src="./Assets/Images/Vectorgfgfgfgfg.svg" class="img-fluid ms-2" alt=""></button>
+              </div>
+
+            </div>
+
+          </div>    
+  </div>
+
+
+</div>
+
+</section>
+
+
+
+
+<!-- emo slider -->
+
+
+<section class="container my-5 mx-auto">
+  <div class="row row-cols-lg-2 row-cols-md-1 row-cols-1">
+
+    <div class="col mb-3">
+     <a href="">
+      <img src="./Assets/Images/c,vc,vm,vmc,v,cvcv,cvcv_auto_x2.jpg" class="img-fluid" alt="">
+     </a>
+
+    </div>
+
+    <div class="col mb-3">
+      <a href="">
+        <img src="./Assets/Images/nnnnnnnnnn_auto_x2.jpg" class="img-fluid" alt="">
+       </a>
+
+    </div>
+  </div>
+
+</section>
+<!-- emo slider -->
+
+
+<section class="container mx-auto my-5">
+
+  <p class="mb-5" style="font-size: 24px; font-weight: 700; color: #404040;">What our students say about us</p>
+
+  <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-5">
+
+    <div class="col">
+      <iframe width="100%" height="315" class="rounded-3" src="https://www.youtube.com/embed/p8jwoXayTMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    <div class="col">
+      <iframe width="100%"  class="rounded-3"  height="315" src="https://www.youtube.com/embed/p8jwoXayTMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    <div class="col">
+      <iframe width="100%"  class="rounded-3"  height="315" src="https://www.youtube.com/embed/p8jwoXayTMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+  </div>
+
+  <div class=" text-right" >
+  
+    <a href="" style="text-decoration: none; ">
+      <span style="font-size: 18px; font-weight: 400; color: #404040;">See more videos</span>
+        <img src="./Assets/Images/rrrrrr.svg" style class="img-fluid" alt="">
+    </a>
+    
+    </div>
+
+
+</section>
+
+
+<div style="background-color: #276ABC;">
+
+
+<section class="container mx-auto my-5">
+
+  <div class="p-5">
+
+
+
+    
+
+  
+    <div id="demos" class="carousel slide container" data-ride="carousel">
+  
+  
+   
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row row-cols-lg-3 g-5  row-col-md-2 row-cols-1 g-4">
+            <div class="col bg-white">
+              <div class="p-5">
+                <div class="d-flex">
+                  <div>
+                    <img src="./Assets/Images/Ellipse 22dssdsdsd.jpg" class="img-fluid me-2" alt="">
+                  </div>
+                       <div>
+                        <span style="font-weight: 500; font-size: 18px; color: #404040;">Mihai Razvan</span>
+                        <br>
+             
+                       
+                        <span style="font-weight: 500; font-size: 14px; color: #757575; ">2021-06-24</span>
+                       </div>
+          
+                </div>
+                <br>
+            
+
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorzero.svg" class="img-fluid" alt="">
+              
+
+                  <p style="font-weight: 400; font-size: 16px; color: #363636;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat feugiat ornare pharetra, vitae. Ultrices.</p>
+          
+         
+              </div>
+           
+              
+            </div>
+    
+            <div class="col bg-white">
+              <div class="p-5">
+                <div class="d-flex">
+                  <div>
+                    <img src="./Assets/Images/Ellipse 22dssdsdsd.jpg" class="img-fluid me-2" alt="">
+                  </div>
+                       <div>
+                        <span style="font-weight: 500; font-size: 18px; color: #404040;">Mihai Razvan</span>
+                        <br>
+             
+                       
+                        <span style="font-weight: 500; font-size: 14px; color: #757575; ">2021-06-24</span>
+                       </div>
+          
+                </div>
+                <br>
+            
+
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorzero.svg" class="img-fluid" alt="">
+              
+
+                  <p style="font-weight: 400; font-size: 16px; color: #363636;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat feugiat ornare pharetra, vitae. Ultrices.</p>
+          
+         
+              </div>
+           
+              
+            </div>
+    
+            <div class="col bg-white">
+              <div class="p-5">
+                <div class="d-flex">
+                  <div>
+                    <img src="./Assets/Images/Ellipse 22dssdsdsd.jpg" class="img-fluid me-2" alt="">
+                  </div>
+                       <div>
+                        <span style="font-weight: 500; font-size: 18px; color: #404040;">Mihai Razvan</span>
+                        <br>
+             
+                       
+                        <span style="font-weight: 500; font-size: 14px; color: #757575; ">2021-06-24</span>
+                       </div>
+          
+                </div>
+                <br>
+            
+
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorzero.svg" class="img-fluid" alt="">
+              
+
+                  <p style="font-weight: 400; font-size: 16px; color: #363636;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat feugiat ornare pharetra, vitae. Ultrices.</p>
+          
+         
+              </div>
+           
+              
+            </div>
+    
+    
+          </div>
+          
+        </div>
+        <div class="carousel-item">
+          <div class="row row-cols-lg-3 row-col-md-2 row-cols-1 g-4">
+            <div class="col bg-white">
+              <div class="p-5">
+                <div class="d-flex">
+                  <div>
+                    <img src="./Assets/Images/Ellipse 22dssdsdsd.jpg" class="img-fluid me-2" alt="">
+                  </div>
+                       <div>
+                        <span style="font-weight: 500; font-size: 18px; color: #404040;">Mihai Razvan</span>
+                        <br>
+             
+                       
+                        <span style="font-weight: 500; font-size: 14px; color: #757575; ">2021-06-24</span>
+                       </div>
+          
+                </div>
+                <br>
+            
+
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorzero.svg" class="img-fluid" alt="">
+              
+
+                  <p style="font-weight: 400; font-size: 16px; color: #363636;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat feugiat ornare pharetra, vitae. Ultrices.</p>
+          
+         
+              </div>
+           
+              
+            </div>
+    
+            <div class="col bg-white">
+              <div class="p-5">
+                <div class="d-flex">
+                  <div>
+                    <img src="./Assets/Images/Ellipse 22dssdsdsd.jpg" class="img-fluid me-2" alt="">
+                  </div>
+                       <div>
+                        <span style="font-weight: 500; font-size: 18px; color: #404040;">Mihai Razvan</span>
+                        <br>
+             
+                       
+                        <span style="font-weight: 500; font-size: 14px; color: #757575; ">2021-06-24</span>
+                       </div>
+          
+                </div>
+                <br>
+            
+
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorzero.svg" class="img-fluid" alt="">
+              
+
+                  <p style="font-weight: 400; font-size: 16px; color: #363636;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat feugiat ornare pharetra, vitae. Ultrices.</p>
+          
+         
+              </div>
+           
+              
+            </div>
+    
+            <div class="col bg-white">
+              <div class="p-5">
+                <div class="d-flex">
+                  <div>
+                    <img src="./Assets/Images/Ellipse 22dssdsdsd.jpg" class="img-fluid me-2" alt="">
+                  </div>
+                       <div>
+                        <span style="font-weight: 500; font-size: 18px; color: #404040;">Mihai Razvan</span>
+                        <br>
+             
+                       
+                        <span style="font-weight: 500; font-size: 14px; color: #757575; ">2021-06-24</span>
+                       </div>
+          
+                </div>
+                <br>
+            
+
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorzero.svg" class="img-fluid" alt="">
+              
+
+                  <p style="font-weight: 400; font-size: 16px; color: #363636;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat feugiat ornare pharetra, vitae. Ultrices.</p>
+          
+         
+              </div>
+           
+              
+            </div>
+    
+    
+          </div>
+          
+        </div>
+        <div class="carousel-item">
+          <div class="row row-cols-lg-3 row-col-md-2 row-cols-1 g-4">
+            <div class="col bg-white">
+              <div class="p-5">
+                <div class="d-flex">
+                  <div>
+                    <img src="./Assets/Images/Ellipse 22dssdsdsd.jpg" class="img-fluid me-2" alt="">
+                  </div>
+                       <div>
+                        <span style="font-weight: 500; font-size: 18px; color: #404040;">Mihai Razvan</span>
+                        <br>
+             
+                       
+                        <span style="font-weight: 500; font-size: 14px; color: #757575; ">2021-06-24</span>
+                       </div>
+          
+                </div>
+                <br>
+            
+
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorzero.svg" class="img-fluid" alt="">
+              
+
+                  <p style="font-weight: 400; font-size: 16px; color: #363636;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat feugiat ornare pharetra, vitae. Ultrices.</p>
+          
+         
+              </div>
+           
+              
+            </div>
+    
+            <div class="col bg-white">
+              <div class="p-5">
+                <div class="d-flex">
+                  <div>
+                    <img src="./Assets/Images/Ellipse 22dssdsdsd.jpg" class="img-fluid me-2" alt="">
+                  </div>
+                       <div>
+                        <span style="font-weight: 500; font-size: 18px; color: #404040;">Mihai Razvan</span>
+                        <br>
+             
+                       
+                        <span style="font-weight: 500; font-size: 14px; color: #757575; ">2021-06-24</span>
+                       </div>
+          
+                </div>
+                <br>
+            
+
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorzero.svg" class="img-fluid" alt="">
+              
+
+                  <p style="font-weight: 400; font-size: 16px; color: #363636;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat feugiat ornare pharetra, vitae. Ultrices.</p>
+          
+         
+              </div>
+           
+              
+            </div>
+    
+            <div class="col bg-white">
+              <div class="p-5">
+                <div class="d-flex">
+                  <div>
+                    <img src="./Assets/Images/Ellipse 22dssdsdsd.jpg" class="img-fluid me-2" alt="">
+                  </div>
+                       <div>
+                        <span style="font-weight: 500; font-size: 18px; color: #404040;">Mihai Razvan</span>
+                        <br>
+             
+                       
+                        <span style="font-weight: 500; font-size: 14px; color: #757575; ">2021-06-24</span>
+                       </div>
+          
+                </div>
+                <br>
+            
+
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorstarts.svg" class="img-fluid" alt="">
+                  <img src="./Assets/Images/Vectorzero.svg" class="img-fluid" alt="">
+              
+
+                  <p style="font-weight: 400; font-size: 16px; color: #363636;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat feugiat ornare pharetra, vitae. Ultrices.</p>
+          
+         
+              </div>
+           
+              
+            </div>
+         
+    
+          </div>
+          
+        </div>
+              
+                
+      </div>
+      <a class="carousel-control-prev" href="#demos" data-slide="prev">
+        <span class="carousel-control-prev-icon " style="border-radius: 50%;
+       background-color: #04A1E5"></span>
+      </a>
+      <a class="carousel-control-next" href="#demos" data-slide="next">
+        <span class="carousel-control-next-icon" style="border-radius: 50%;
+ background-color: #04A1E5"></span>
+      </a>
+    </div>
+
+  </div>
+  
+  </section>
+
+</div>
+
+<section class="container mx-auto my-5">
+
+  <div class="container">
+    <h1 class="" style="font-size: 24px; font-weight: 700; color: #404040;">1 Min. ask SMS</h1>
+    <br>
+  
+    <span style="font-size: 21px; font-weight: 400; color: #404040;">Our counsellors and institutions answer your questions in less than 1 min.</span>
+    <br><br>
+    <br>
+  
+  </div>
+
+
+  <div id="demo" class="carousel slide container" data-ride="carousel">
+
+
+ 
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row row-cols-lg-4 row-col-md-2 row-cols-1 g-4">
+          <div class="col">
+            <iframe width=100%" height="315" src="https://www.youtube.com/embed/M9udAirjw3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+          </div>
+  
+          <div class="col">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/KUUt31HE7DU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+          </div>
+  
+          <div class="col">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ANCAyz_U_oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+          </div>
+  
+          <div class="col">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/PLlpD-34cXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+          </div>
+  
+        </div>
+        
+      </div>
+      <div class="carousel-item">
+        <div class="row row-cols-lg-4 row-col-md-2 row-cols-1 g-4">
+          <div class="col">
+            <iframe width=100%" height="315" src="https://www.youtube.com/embed/M9udAirjw3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+          </div>
+  
+          <div class="col">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/KUUt31HE7DU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+          </div>
+  
+          <div class="col">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ANCAyz_U_oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+          </div>
+  
+          <div class="col">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/PLlpD-34cXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+          </div>
+  
+        </div>
+        
+      </div>
+      <div class="carousel-item">
+        <div class="row row-cols-lg-4 row-col-md-2 row-cols-1 g-4">
+          <div class="col">
+            <iframe width=100%" height="315" src="https://www.youtube.com/embed/M9udAirjw3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+          </div>
+  
+          <div class="col">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/KUUt31HE7DU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+          </div>
+  
+          <div class="col">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ANCAyz_U_oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+          </div>
+  
+          <div class="col">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/PLlpD-34cXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+          </div>
+  
+        </div>
+        
+      </div>
+            
+              
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="container my-5">
+  <div class="row row-cols-lg-2  row-cols-1 row-cols-xs-1 mx-auto gx-3 mt-4 pb-5 gy-3">
+           
+    <div class="col " style=" box-shadow: 2px 2px 2px 2px #E5E5E5;">
+       <a href="" style="text-decoration: none;">
+        <img src="/Assets/Images/unsplash_tXiMrX3Gc-g.svg"  class="img-fluid" alt="">
+        <br>
+        <div class="p-3 bg-white">
+            <span class="visa-style">Tips for study visas and immigration</span>
+            <br>
+            <br>
+            <span class="visa-info">Looking for the right place to study internationally? We’ll help find the best course for you. Here’s what you’ll need to do, from research to arrival.</span>
+            
+        </div>
+        <div class="px-3 pb-3 pt-1 bg-white col-style-1">
+            <span class="author">by Franka Zlatic</span>
+        </div>
+       </a>
+
+    </div>
+
+  <div class="col">
+     <a href="" style="text-decoration: none;">
+        <div class="row gx-0  custom-width mb-4 " style=" box-shadow: 2px 2px 2px 2px #E5E5E5;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-2">
+              <img src="/Assets//Images/unsplash_wRdYnqXtyYk.svg" class="w-100" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mb-2 bg-white px-3">
+              <span class="visa-style">5 Best things about studying in New Zealand</span>
+              <br>
+              <br>
+              <span class="visa-info">Looking for the right place to study internationally? We’ll help find the best course for you... </span>
+            <br><br>
+              <div class="">
+                  <span class="author">by Franka Zlatic</span>
+              </div>
+
+          
+            </div>
+        </div>
+     </a>
+      
+     <a href="" style="text-decoration: none;">
+        <div class="row gx-0  custom-width" style=" box-shadow: 2px 2px 2px 2px #E5E5E5;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <img src="/Assets//Images/unsplash_8nHQx4zi9Wk.svg" class="w-100" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 bg-white px-3">
+              <span class="visa-style">Scholarships for international students</span>
+              <br>
+              <br>
+              <span class="visa-info">There are many types of scholarships for international students that will help with your university costs. We’ll help you apply for them. </span>
+              <br>
+              <br>       
+                     <div class="">
+                  <span class="author">by Franka Zlatic</span>
+              </div>
+
+          
+            </div>
+        </div>
+     </a>
+   
+   
+            
+              
+
+          
+
+
+  </div>
+
+</div>
+<div class=" text-right" >
+  
+<a href="" style="text-decoration: none; ">
+  <span style="font-size: 18px; font-weight: 400; color: #404040;">See more posts</span>
+    <img src="./Assets/Images/rrrrrr.svg" style class="img-fluid" alt="">
+</a>
+
+</div>
+</section>
+
+<section class="container my-5">
+
+  <p class="partner-header">Explore your next destination</p>
+
+      <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1  g-3 mb-5 mx-auto">
+            <div class="col bg-imagess-1 mx-auto ">
+               
+                 
+                   <a href="">
+
+                    <div class="p-lg-3 p-md-2 p-sm-1 p-xs-1 pic-style">
+                        <span class=" span-1-style">UK</span>
+                       
+
+                    </div>
+
+                   </a>
+
+            </div>
+            <div class="col bg-imagess-2 mx-auto ">
+               
+                 
+                  <a href="">
+
+                    <div class="p-lg-3 p-md-1 p-sm-1 p-xs-1 pic-style">
+                        <span class=" span-1-style">Canada</span>
+                      
+
+                    </div>
+                  </a>
+
+            </div>
+            <div class="col bg-imagess-3 mx-auto ">
+               
+                 
+                   <a href="">
+
+                    <div class="p-lg-3 p-md-2 p-sm-1 p-xs-1 pic-style">
+                        <span class=" span-1-style">Australia</span>
+                   
+
+                    </div>
+                   </a>
+
+            </div>
+            <div class="col bg-imagess-4 mx-auto ">
+               
+                 
+                   <a href="">
+
+                    <div class="p-lg-3 p-md-2 p-sm-1 p-xs-1 pic-style">
+                        <span class=" span-1-style">USA</span>
+                     
+
+                    </div>
+                   </a>
+
+            </div>
+           
+           
+          
+        </div>
+
+        <div class=" text-right">
+          <img src="./Assets/Images/Group 58left.svg" class="mx-1" alt="">
+          <img src="./Assets/Images/Group 57left.svg" class="mx-1" alt="">
+
+
+        </div>
+
+</section>
+
+
+
+
+
+
+
+
+<!-- partners section start -->
+<section class="container my-5">
+  <p class="partner-header">Our partners</p>
+
+  <div class="row mx-auto text-center row-cols-lg-6 row-cols-md-2 row-cols-sm-2 row-cols-1 margin-down-11  g-3">
+      <div class="col">
+          <img src="assets/images/Universityof-Roehampton-London-320x202.svg" alt="">
+      </div>
+
+      <div class="col">
+          <img src="assets/images/University-of-Bedfordshire-320x202.svg" alt="">
+      </div>
+
+      <div class="col">
+          <img src="assets/images/universityofbuckingham-320x202.svg" alt="">
+      </div>
+      <div class="col">
+          <img src="assets/images/University-of-Wales-Trinity-Saint-David-320x202.svg" alt="">
+      </div>
+
+      <div class="col">
+          <img src="assets/images/University-of-Bristol-320x202.svg" alt="">
+      </div>
+
+      <div class="col">
+          <img src="assets/images/University-of-Salford-NCUK-university-320x202.svg" alt="">
+      </div>
+
+  </div>
+</section>
+<!-- partners section end -->
+
+
+<section class="py-5 my-5 text-center" style="background-color: #2154AC;">
+  <p style="font-size: 24px; font-weight: 500; color: #FFFFFF;">Get get latest admission information</p>
+
+  <p style="font-size: 14px; font-weight: 400; color: #FFFFFF;">Get top tips & guidance from our in-house study abroad experts</p>
+
+  <form action="" class="mt-4 mx-auto" style="width: 85%;">
+    <input type="text" class="w-50 p-2 rounded-3 mb-4" placeholder="Enter your email address"> 
+    <button style="font-size: 14px; font-weight: 700; color: #F6F6FA; background-color: #04A1E5;" class="px-5 mb-4 py-2 border-0 rounded-3">Subscribe!</button>
+
+  </form>
+
+
+    <input type="checkbox">
+
+    <span style="font-weight: 400; font-size: 14px; color: #FFFFFF;"> I  confirm the Terms and Conditions & Privacy Notice. I also agree to join the SMS HEG community.</span>
+
+
+
+
+
+</section>
+
+
+
+<!-- location section start -->
+<section class="container bg-map mx-auto">
+  <div class="container">
+      <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 mx-auto g-3 my-5">
+          <div class="col">
+             <div class="card-2 pt-3 ps-3 pb-3">
+              <p class="location-title">UK office</p>
+              <div class="d-flex">
+                  <img class="icon-location" src="assets/images/location.svg" alt="">
+                  <p class="location-para ms-2">80-82 Nelson Street, London E1 <br> 2DY, United Kingdom</p>
+              </div>
+              <div class="d-flex">
+                  <img class="icon-phone" src="assets/images/phone.png" alt="">
+                  <p class="location-para ms-2">+442072658478 <br>
+                  +447312132246</p>
+              </div>
+                  <div class="">
+                      <img class="img-fluid" src="assets/images/mail.png" alt="">
+                      <span class="location-para"> info@smsheg.co.uk</span>
+                  </div>
+             </div>
+          </div>
+
+          <div class="col">
+             <div class="card-2 pt-3 ps-3 pb-3">
+              <p class="location-title"> Bangladesh (DHAKA)  Office </p>
+              <div class="d-flex">
+                  <img class="icon-location" src="assets/images/location.svg" alt="">
+                  <p class="location-para ms-2">21/4/A, Jigatola,Dhanmondi <br>
+                      Dhaka 1209</p>
+              </div>
+                  <div class="d-flex">
+                      <img class="icon-phone" src="assets/images/phone.png" alt="">
+                      <p class="location-para ms-2">+01324296400-02 <br> <br></p>
+                  </div>
+                  
+                  <div class="">
+                      <img class="img-fluid" src="assets/images/mail.png" alt="">
+                      <span class="location-para"> info@smsheg.co.uk</span>
+                  </div>
+             </div>
+          </div>
+
+          <div class="col">
+             <div class="card-2 pt-3 ps-3 pb-3">
+              <p class="location-title">India  Office</p>
+              <div class="d-flex">
+                  <img class="icon-location" src="assets/images/location.svg" alt="">
+                  <p class="location-para ms-2">80-82 Nelson Street, London E1 <br> 2DY, United Kingdom</p>
+              </div>
+              <div class="d-flex">
+                  <img class="icon-phone" src="assets/images/phone.png" alt="">
+                  <p class="location-para ms-2">+442072658478 <br>
+                  +447312132246</p>
+              </div>
+              <div class="">
+                  <img src="assets/images/mail.png" alt="">
+                  <span class="location-para"> info@smsheg.co.uk</span>
+              </div>
+             </div>
+          </div>
+
+          <div class="col">
+             <div class="card-2 pt-3 ps-3 pb-3">
+              <p class="location-title">Nigeria  Office</p>
+              <div class="d-flex">
+                  <img class="icon-location" src="assets/images/location.svg" alt="">
+                  <p class="location-para ms-2">80-82 Nelson Street, London E1 <br> 2DY, United Kingdom</p>
+              </div>
+              <div class="d-flex">
+                  <img class="icon-phone" src="assets/images/phone.png" alt="">
+                  <p class="location-para ms-2">+442072658478 <br>
+                  +447312132246</p>
+              </div>
+                  <div class="">
+                      <img class="img-fluid" src="assets/images/mail.png" alt="">
+                      <span class="location-para"> info@smsheg.co.uk</span>
+                  </div>
+             </div>
+          </div>
+      </div>
+  </div>
+
+</section>
+<!-- location section end -->
+
+
 
 
 
@@ -243,7 +1239,12 @@
   </section>
 
 <!-- footer end -->
-    
+
+<script>
+  
+</script>
+
+
 
 
     <script src="js/jquery-3.6.0.min.js"></script>
@@ -254,5 +1255,8 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
         <!--  -->
+
+
+
 </body>
 </html>
