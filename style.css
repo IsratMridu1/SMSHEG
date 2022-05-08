@@ -1129,6 +1129,7 @@ body a {
     background: url('./Assets/Images/Rectangle\ 1762uk.svg');
  height: 320px;
  opacity: .9;
+ width: 100%;
    
  
    display: flex;
@@ -1143,6 +1144,7 @@ body a {
     background: url('./Assets/Images/Rectangle\ 1763usa.svg');
     height: 320px;
     opacity: .9;
+    width: 100%;
    
  
    display: flex;
@@ -1157,6 +1159,7 @@ body a {
     background: url('./Assets/Images/Rectangle\ 1761can.png');
     height: 320px;
     opacity: .9;
+    width: 100%;
  
    display: flex;
    align-items: flex-end;
@@ -1170,6 +1173,7 @@ body a {
     background: url('./Assets/Images/Rectangle\ 1760aus.svg');
     height: 320px;
     opacity: .9;
+    width: 100%;
    
  
    display: flex;
