@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-style{
+    border-radius: 50px;
+    border: 1px solid #2154AC;
+    color: #2154AC;
+}
+
+.icon-style{
+    color: #2154AC;
+}
+
+.homeMenuStye{
+    color: #2154AC;
+}
+
+.navbar-font-size{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.logo-bg{
+    background-color: #2154AC;
+}
+
+
+
+.logo-title{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.img-position{
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+
+.location-title{
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 400;
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+
+.about-bg-style{
+    background-color: #2154AC;
+}
+
+.about-bg-style span{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.about-bg-style a{
+   text-decoration: none;
+    
+}
+
+.about-bg-style-2{
+    background-color: #EAEBEF;
+
+}
+
+.about-bg-style-2 span{
+    color: #2F414D;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.about-bg-style-2 a{
+   text-decoration: none;
+    
+}
+
+.logo-width{
+    width: 60%;
+}
+
+.about-info p{
+    color: #484848;
+    font-size: 28px;
+    font-weight: 700;
+}
+.about-info span{
+    color: #484848;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-info-2{
+    background-color: #F0F0F0;
+    
+}
