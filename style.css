@@ -163,7 +163,7 @@ body{
 
 
 .banner-img3{
-    background: url('/Assets/Images/image3.png');
+    background: url('/Assets/Images/laughters.png');
     opacity: .9;
     width: 100%;
 background-size: cover;
@@ -666,7 +666,7 @@ body{
 .forms-style{
     position: relative;
     bottom: 70px;
-        width: 80%;
+        width: 50%;
     }
 
 
@@ -1118,7 +1118,7 @@ body a {
 
 
 .bg-images-1{
-    background: url('./Assets/Images/Rectangle\ 1866uni1.svg');
+    background: url('./Assets/Images/campus1.svg');
     height: 210px;
    
  
@@ -1131,7 +1131,7 @@ body a {
 }
 
 .bg-imagess-1{
-    background: url('./Assets/Images/Rectangle\ 1762uk.svg');
+    background: url('./Assets/Images/unitedkingdom.svg');
  height: 320px;
  opacity: .9;
  width: 100%;
@@ -1146,7 +1146,7 @@ body a {
 
 }
 .bg-imagess-4{
-    background: url('./Assets/Images/Rectangle\ 1763usa.svg');
+    background: url('./Assets/Images/unitedstatesofamerica.svg');
     height: 320px;
     opacity: .9;
     width: 100%;
@@ -1161,7 +1161,7 @@ body a {
 
 }
 .bg-imagess-2{
-    background: url('./Assets/Images/Rectangle\ 1761can.png');
+    background: url('./Assets/Images/canada.png');
     height: 320px;
     opacity: .9;
     width: 100%;
@@ -1175,7 +1175,7 @@ body a {
 
 }
 .bg-imagess-3{
-    background: url('./Assets/Images/Rectangle\ 1760aus.svg');
+    background: url('./Assets/Images/australia.svg');
     height: 320px;
     opacity: .9;
     width: 100%;
@@ -1193,7 +1193,7 @@ body a {
 
 
 .bg-images-2{
-    background: url('./Assets/Images/Rectangle\ 1867.svg');
+    background: url('./Assets/Images/campus2.svg');
     height: 210px;
    
 
@@ -1205,7 +1205,7 @@ body a {
    
 }
 .bg-images-3{
-    background: url('./Assets/Images/Rectangle\ 186868.svg');
+    background: url('./Assets/Images/campus3.svg');
     height: 210px;
    
 
@@ -1217,7 +1217,7 @@ body a {
    
 }
 .bg-images-4{
-    background: url('./Assets/Images/Rectangle\ 1869.svg');
+    background: url('./Assets/Images/campus4.svg');
     height: 210px;
    
 
@@ -1229,7 +1229,7 @@ body a {
    
 }
 .bg-images-5{
-    background: url('./Assets/Images/Rectangle\ 1870.svg');
+    background: url('./Assets/Images/campus5.svg');
     height: 210px;
    
 
@@ -1241,7 +1241,7 @@ body a {
    
 }
 .bg-images-6{
-    background: url('./Assets/Images/Rectangle\ 18711871.svg');
+    background: url('./Assets/Images/campus6.svg');
     height: 210px;
    
 
@@ -1260,6 +1260,7 @@ body a {
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
+
 }
 .span-2-style{
     font-size: 14px;
@@ -1375,42 +1376,42 @@ body a {
 
   
     .bg-images-1{
-        background: url('./Assets/Images/Rectangle\ 1866uni1.svg');
+        background: url('./Assets/Images/campus1.svg');
        
        height: 200px;
    
        
     }
     .bg-images-2{
-        background: url('./Assets/Images/Rectangle\ 1867.svg');
+        background: url('./Assets/Images/campus2.svg');
        
        height: 200px;
  
        
     }
     .bg-images-3{
-        background: url('./Assets/Images/Rectangle\ 186868.svg');
+        background: url('./Assets/Images/campus3.svg');
        
        height: 200px;
      
        
     }
     .bg-images-4{
-        background: url('./Assets/Images/Rectangle\ 1869.svg');
+        background: url('./Assets/Images/campus4.svg');
        
        height: 200px;
      
        
     }
     .bg-images-5{
-        background: url('./Assets/Images/Rectangle\ 1870.svg');
+        background: url('./Assets/Images/campus5.svg');
        
        height: 200px;
     
        
     }
     .bg-images-6{
-        background: url('./Assets/Images/Rectangle\ 18711871.svg');
+        background: url('./Assets/Images/campus6.svg');
        
        height: 200px;
      
@@ -2001,7 +2002,7 @@ body a {
         bottom: 5px;
     }
     
-    .location-title{
+    .location-titles{
         font-size: 25px;
         color: #FFFFFF;
         font-weight: 400;
@@ -3203,7 +3204,7 @@ body a {
     }
     
     .banner-img1{
-        background: url('/Assets/Images/image.png');
+        background: url('/Assets/Images/library.png');
         opacity: .9;
         width: 100%;
     background-size: cover;
@@ -3542,7 +3543,7 @@ body a {
     }
     
     .banner-img2{
-        background: url('/Assets/Images/image2.png');
+        background: url('/Assets/Images/study.png');
         opacity: .9;
         width: 100%;
     background-size: cover;
@@ -4836,7 +4837,7 @@ body{
 }
 
 .banner-img-1{
-    background: url('/assets/images/image.png');
+    background: url('/assets/images/library.png');
     opacity: .9;
     width: 100%;
     background-size: cover;
@@ -4852,7 +4853,7 @@ body{
 
 
 .banner-bgs{
-    background: url('/assets/Images/Rectangle\ 27.svg');
+    background: url('/assets/Images/bannerbackground.svg');
   
     width: 100%;
     background-size: cover;
@@ -4865,7 +4866,7 @@ body{
 }
 
 .banner-img-2{
-    background: url('/assets/images/Rectangle\ 28.png');
+    background: url('/assets/Images/recentnews.png');
     opacity: .9;
     width: 100%;
     background-size: cover;
@@ -4879,7 +4880,7 @@ body{
 }
 
 .banner-img-3{
-    background: url('/assets/images/Rectangle\ 27.png');
+    background: url('/assets/images/tallbuilding.png');
     opacity: .9;
     width: 100%;
     background-size: cover;
