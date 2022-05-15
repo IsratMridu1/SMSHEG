@@ -32,6 +32,15 @@ body{
     padding: 0;
 }
 
+.home-col-style-1{
+    height: 475px;
+}
+
+.home-col-style-2{
+    height: 229px;
+}
+
+
 .btn-style{
     border-radius: 50px;
     border: 1px solid #2154AC;
