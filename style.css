@@ -1367,7 +1367,19 @@ body a {
    color: #FFFFFF;
 }
 
+.relative-bg-1{
+    background-image: url('./Assets/Images/smsstats.svg');
+     background-repeat: no-repeat; 
+     background-size: cover;
+      height: 360px; 
+      width: 100%; 
+}
 
+@media only screen and (max-width: 1199px){
+    .relative-bg-1{
+        height: 100%;
+    }
+}
 
 
 @media only screen and (max-width: 576px) {
