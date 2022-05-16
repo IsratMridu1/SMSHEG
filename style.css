@@ -22,12 +22,7 @@
 }
 /* ============ mobile view .end// ============ */
 
-@media(min-width: 992px) and (max-width: 1199px){
-   .bookimage{
-       position: relative;
-       bottom: -36px;
-   }
-  }
+
 
 
 
@@ -36,6 +31,24 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.relative-position-1{
+    position: relative;
+    top: -100px;
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+    .bookimage{
+        position: relative;
+        bottom: -36px;
+    }
+ 
+    .relative-position-1{
+     position: relative;
+     top: -70px;
+ }
+ 
+   }
 
 .home-col-style-1{
     height: 475px;
