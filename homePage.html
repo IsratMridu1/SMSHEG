@@ -61,6 +61,28 @@
   }
 
 
+  .hidden {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+}
+
+input[type=checkbox]+label {
+  color: #A1A1A1;
+/*   font-style: italic; */
+  border: 2px solid #A1A1A1;
+ border-radius: 20px;
+
+}
+
+input[type=checkbox]:checked+label {
+  color: white;
+  font-style: normal;
+  background-color: #2154AC;
+  border: 2px solid #2154AC;
+}
+
+
   </style>
 
 
@@ -223,21 +245,26 @@
               <img src="./Assets/Images/searchicon.svg" class="img-fluid" style="position: relative; right: 7%;" alt="">
               <div class="mt-3">
 
-                <button class="text-white px-3 py-0 border-0 me-1" style="background-color: #2154AC; border-radius: 20px;">
-                  Courses
-                </button>
+                <input type="checkbox" class="hidden" name="cb1" id="cb1">
+                <label for="cb1" class="px-3 py-0">Courses</label>
 
-                <button class="bg-white px-3 py-0 me-1" style=" border-radius: 20px; border: 1px solid #C4C4C4; color: #A1A1A1;">
-                  Scholarship
-                </button>
+               
+                <input type="checkbox" class="hidden" name="cb2" id="cb2">
+                <label for="cb2" class="px-3 py-0">Scholarship</label>
 
-                <button class="bg-white px-3 py-0 me-1" style=" border-radius: 20px; border: 1px solid #C4C4C4; color: #A1A1A1;">
-                  Universities
-                </button>
+               
+                <input type="checkbox" class="hidden" name="cb3" id="cb3">
+                <label for="cb3" class="px-3 py-0">Universities</label>
 
-                <button class="bg-white px-3 py-0 me-1 " style=" border-radius: 20px; border: 1px solid #C4C4C4; color: #A1A1A1;">
-                  Website
-                </button>
+               
+                <input type="checkbox" class="hidden" name="cb4" id="cb4">
+                <label for="cb4" class="px-3 py-0">Website</label>
+
+               
+
+              
+
+              
               </div>
 
             </div>
@@ -257,7 +284,7 @@
 
 
 <section class=" py-5 relative-bg-1 " >
-<div class="container ">
+<div class="container mx-auto ">
 
 
   <div class="row  mx-auto home-stylesss   relative-position-1 ">
