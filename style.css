@@ -5217,7 +5217,33 @@ body {
       cursor: pointer;
   }
 
+  .uapp-intro-style{
+      position: relative;
+      top: -37px;
+      left: 75px;
+  }
+
+  .career-text{
+      position: relative;
+      top: -110px;
+  }
 /*  */
+
+@media only screen and (max-width: 1199px) {
+   
+.images-dot{
+    display: none;
+
+}
+
+.uapp-intro-style{
+    position: relative;
+    top: 85px;
+    left: 45px;
+}
+
+
+  }
 
 
 
